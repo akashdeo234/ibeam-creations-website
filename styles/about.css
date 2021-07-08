@@ -335,15 +335,15 @@ ul li {
         font-size: 15px;
     }
     .about-sec{
-      height: 230vh;
+      height: 225vh;
     }
     .about-sec  img{
       width: 90%;
     }
     .about-sec p{
       margin: 20px 0 ;
-      line-height: 10px;
-      font-size: 8px;
+      line-height: 8px;
+      font-size: 7px;
       text-align: start;
     }
      /*footer starts*/
