@@ -587,23 +587,20 @@ ul li {
   }
   /*conter ends*/
   /*Footer Starts*/
-  .footer{
-    padding-top: 10px;
-    height: 30vh;
-  }
-  .footer img{
-    margin-bottom: 15px;
-  }
-  .icons a i{
-    font-size: 25px;
-    padding: 0 4px;
-  }
-  .col-lg-6 .footer-logo{
-    font-size: 10px;
-  }
   .created-by{
     left: 29%;
   }
+  
+   .footer{
+      height: 30vh;
+    }
+    .icons a i{
+      font-size: 20px;
+      padding: 0 4px;
+    }
+    .col-lg-6 .footer-logo{
+      font-size: 10px;
+    }
   /*Footer Ends*/
 }
 
