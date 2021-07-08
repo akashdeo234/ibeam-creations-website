@@ -345,7 +345,7 @@ ul li {
 /*Footer Ends*/
 
 /*mobie*/
-@media all and (max-width: 500px){
+@media (max-width: 767px) {
   ::-webkit-scrollbar{display: none;}
   .footer img{
     margin-bottom: 30px;
