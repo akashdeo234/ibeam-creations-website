@@ -324,6 +324,9 @@ ul li {
 
 /*mobie*/
 @media all and (max-width: 500px){
+ ::-webkit-scrollbar{
+  display: none;
+}
   .footer img{
     margin-bottom: 30px;
   }
@@ -337,7 +340,7 @@ ul li {
       height: 400vh;
     }
     .gallary-sec .containers{
-      width: 95%;
+      width: 92%;
       margin: 0 auto;
     }
     .grid-wrapper{
@@ -348,15 +351,14 @@ ul li {
     }
     /*footer starts*/
     .footer{
-      margin-top: 10px;
-      height: 25vh;
+      height: 30vh;
     }
     .icons a i{
-      font-size: 18px;
+      font-size: 20px;
       padding: 0 4px;
     }
     .col-lg-6 .footer-logo{
-      font-size: 15px;
+      font-size: 10px;
     }
     .created-by{
       left: 29%;
