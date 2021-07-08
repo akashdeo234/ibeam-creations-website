@@ -348,15 +348,14 @@ ul li {
     }
      /*footer starts*/
      .footer{
-      margin-top: 10px;
-      height: 25vh;
+      height: 30vh;
     }
     .icons a i{
-      font-size: 18px;
+      font-size: 20px;
       padding: 0 4px;
     }
     .col-lg-6 .footer-logo{
-      font-size: 15px;
+      font-size: 10px;
     }
     .created-by{
       left: 29%;
