@@ -348,6 +348,9 @@ ul li {
 
 /*mobie*/
 @media all and (max-width: 500px){
+  ::-webkit-scrollbar{
+  display: none;
+}
   .footer img{
     margin-bottom: 30px;
   }
@@ -359,6 +362,7 @@ ul li {
     }
     .service-sec{
       height: 341vh;
+      padding : 25px 0;
     }
     .service-sec .row.row.one .col-md-6 img{
       margin-top: 0%;
@@ -381,15 +385,14 @@ ul li {
     }
     /*footer starts*/
     .footer{
-      margin-top: 10px;
-      height: 25vh;
+      height: 30vh;
     }
     .icons a i{
-      font-size: 18px;
+      font-size: 20px;
       padding: 0 4px;
     }
     .col-lg-6 .footer-logo{
-      font-size: 15px;
+      font-size: 10px;
     }
     .created-by{
       left: 29%;
