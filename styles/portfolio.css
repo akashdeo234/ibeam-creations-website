@@ -262,7 +262,7 @@ ul li {
 }
 .grid-wrapper img{
   width: 100%;
-  height: 100%;
+  object-fit:cover;
 }
 .grid-wrapper{
   display: grid;
@@ -391,7 +391,7 @@ ul li {
     }
   .grid-wrapper img{
   width: 100%;
-  object-fit:contain;
+  object-fit:cover;
   }
     /*footer starts*/
   .footer{
