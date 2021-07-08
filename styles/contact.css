@@ -353,6 +353,7 @@ ul li {
   .loader{
     left: 5px;
   }
+  .nav-links{top:85%}
     .header .nav-links a{
         font-size: 15px;
     }
