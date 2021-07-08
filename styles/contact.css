@@ -364,14 +364,14 @@ ul li {
       font-size: 1.4rem;
     }
     .contact-sec .containers{
-      width: 100%;
+      width: 95%;
       margin: 0 auto;
     }
     .contact-sec .form{
       margin-top: 20px;
     }
     .contact-sec .map{
-      width: 360px;
+      width: 370px;
       height: 400px;
     }
     .form div{
@@ -381,15 +381,14 @@ ul li {
       padding-bottom: 10px;
     }
     .footer{
-      margin-top: 10px;
-      height: 25vh;
+      height: 30vh;
     }
     .icons a i{
-      font-size: 18px;
+      font-size: 20px;
       padding: 0 4px;
     }
     .col-lg-6 .footer-logo{
-      font-size: 15px;
+      font-size: 10px;
     }
     .created-by{
       left: 29%;
