@@ -323,7 +323,7 @@ ul li {
 
 
 /*mobie*/
-@media all and (max-width: 500px){
+@media (max-width: 767px) {
  ::-webkit-scrollbar{
   display: none;
 }
