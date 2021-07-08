@@ -587,6 +587,7 @@ ul li {
   }
   /*conter ends*/
   /*Footer Starts*/
+  .footer img{margin-bottom:12px}
   .created-by{
     left: 29%;
   }
