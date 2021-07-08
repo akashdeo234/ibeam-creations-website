@@ -346,9 +346,7 @@ ul li {
 
 /*mobie*/
 @media all and (max-width: 500px){
-  ::-webkit-scrollbar{
-  display: none;
-}
+  ::-webkit-scrollbar{display: none;}
   .footer img{
     margin-bottom: 30px;
   }
