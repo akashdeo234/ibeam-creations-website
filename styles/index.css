@@ -497,7 +497,7 @@ ul li {
 /*Footer Ends*/
 
 /*mobie*/
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .loader{
     left: 5px;
   }
