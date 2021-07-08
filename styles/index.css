@@ -498,9 +498,9 @@ ul li {
 
 /*mobie*/
 @media all and (max-width: 500px) {
-  body,html{
-    overflow : hidden;
-  }
+  ::-webkit-scrollbar{
+  display :none;
+}
   .loader{
     left: 5px;
   }
