@@ -323,7 +323,7 @@ ul li {
 
 
 /*mobie*/
-@media(max-width: 767px){
+@media all and (max-width: 500px){
   .footer img{
     margin-bottom: 30px;
   }
