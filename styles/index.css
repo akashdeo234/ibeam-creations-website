@@ -546,6 +546,7 @@ ul li {
   .event-sec {
     width: 100%;
     height: 260vh;
+    padding: 20px;
   }
   .event-sec .row {
     display: grid;
@@ -563,6 +564,7 @@ ul li {
   .project-counter-wrp{
     height: 80vh;
     margin-top: 40px;
+    padding: 20px 0;
   }
   .project-counter-wrp ul{
    flex-direction: column; 
@@ -585,14 +587,14 @@ ul li {
   /*conter ends*/
   /*Footer Starts*/
   .footer{
-    margin-top: 10px;
-    height: 25vh;
+    padding-top: 10px;
+    height: 30vh;
   }
   .footer img{
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
   .icons a i{
-    font-size: 18px;
+    font-size: 25px;
     padding: 0 4px;
   }
   .col-lg-6 .footer-logo{
