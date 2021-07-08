@@ -109,7 +109,7 @@ let count3 = 1;
 function projectDone() {
     count1++
     document.querySelector("#number1").innerHTML = count1
-    if (count1 == 1000) {
+    if (count1 == 1235) {
         clearInterval(project)
     }
 }
@@ -117,7 +117,7 @@ function projectDone() {
 function happyClients() {
     count2++
     document.querySelector("#number2").innerHTML = count2
-    if (count2 == 1000) {
+    if (count2 == 1235) {
         clearInterval(clients)
     }
 }
