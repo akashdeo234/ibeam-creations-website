@@ -315,45 +315,116 @@ ul li {
 /*Footer Ends*/
 
 /*mobie*/
-@media all and (max-width: 500px){
-  .footer img{
-    margin-bottom: 30px;
-  }
+@media all and (max-width: 500px) {
+  ::-webkit-scrollbar{
+  display :none;
+}
   .loader{
     left: 5px;
   }
-    .header .nav-links a{
-        font-size: 15px;
-    }
-    .about-sec{
-      height: 200vh;
-    }
-    .about-sec  img{
-      width: 80%;
-    }
-    .about-sec p{
-      margin: 20px 0 ;
-      line-height: 10px;
-      font-size: 8px;
-      text-align: start;
-    }
-     /*footer starts*/
-     .footer{
-      margin-top: 10px;
-      height: 25vh;
-    }
-    .icons a i{
-      font-size: 18px;
-      padding: 0 4px;
-    }
-    .col-lg-6 .footer-logo{
-      font-size: 15px;
-    }
-    .created-by{
-      left: 29%;
-    }
-    /*Footer Ends*/
+  .nav-links {
+    top: 85%;
+  }
+  .header .nav-links a {
+    font-size: 25px;
+  }
+  .hero {
+    height: 87vh;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
+  .text{
+    font-weight :500;
+    font-size :20px ;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+
+  /*find out sec*/
+  /*Find out sec starts*/
+  .find-out-sec{
+    height : 120vh;
+    padding-top: 20px;
+  }
+  .find-out-sec .container {
+    width: 95%;
+    padding : 25px 0;
+    margin: 0 auto;
+  }
+  .find-out-sec .text-contents {
+    max-width: 400px;
+  }
+  .find-out-sec .text-contents h1 {
+    font-size: 31px;
+    line-height: 39px;
+  }
+  /*Find out sec Ends*/
+  /*Event sec starts*/
+  .event-sec {
+    width: 100%;
+    height: 280vh;
+  }
+  .event-sec .row {
+    padding: 20px 0;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1fr 1fr 1fr;
+  }
+  .event-sec .row .btn{
+    margin: 15px 0;
+  }
+  .event-sec .col-12 {
+    height: auto;
+  }
+  /*Event sec Ends*/
+  /*conter stars*/
+  .project-counter-wrp{
+    height: 80vh;
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+  .project-counter-wrp ul{
+   flex-direction: column; 
+    height: 80vh;
+  }
+  .project-counter-wrp ul li{
+    height: 26vh;
+    width: 45%;
+    padding: 12px 0;
+    text-align: center;
+  }
+  .project-counter-wrp ul li i{
+    font-size: 30px;
+    padding: 7px 0;
+  }
+  .project-counter-wrp ul li p{
+    font-size: 15px;
+    padding: 5px;
+  }
+  /*conter ends*/
+  /*Footer Starts*/
+  .footer{
+    padding-top: 10px;
+    height: 30vh;
+  }
+  .footer img{
+    margin-bottom: 15px;
+  }
+  .icons a i{
+    font-size: 25px;
+    padding: 0 4px;
+  }
+  .col-lg-6 .footer-logo{
+    font-size: 10px;
+  }
+  .created-by{
+    left: 29%;
+  }
+  /*Footer Ends*/
 }
+
 
 /*Ipad*/
 @media only screen and (min-width: 768px) and (max-width: 1023px){
