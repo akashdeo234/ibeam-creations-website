@@ -497,7 +497,7 @@ ul li {
 /*Footer Ends*/
 
 /*mobie*/
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 500px)  {
   ::-webkit-scrollbar{
   display :none;
 }
