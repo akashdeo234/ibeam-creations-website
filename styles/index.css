@@ -528,6 +528,7 @@ ul li {
   /*Find out sec starts*/
   .find-out-sec{
     height : 120vh;
+    padding-top: 20px;
   }
   .find-out-sec .container {
     width: 95%;
